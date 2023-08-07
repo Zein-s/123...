@@ -1,0 +1,112 @@
+html {
+  background-color: aliceblue;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 20px 12px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 6px;
+}
+
+nav ul li a:hover {
+  background-color: aliceblue;
+}
+
+section {
+  margin: 20px;
+}
+
+form {
+  background-color: white;
+}
+
+form input {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+form input[type="submit"] {
+  margin: 0;
+  background-color: rgb(68, 177, 68);
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* tambahkan CSS untuk section profile disini */
+
+#profile .profile-photo img {
+  border-radius: 50%;
+  border: 3px solid orange;
+  width: 244px;
+  height: 240px;
+}
+
+#profile .profile-text {
+  padding: 20px;
+}
+
+#profile .action button {
+  position: absolute;
+  top: 275px;
+  left: 420px;
+  display: block;
+  width: 100px;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px -5px #94a6af;
+  color: rgb(7, 7, 27);
+  background-color: aquamarine;
+}
+
+#profile {
+  background-color: #94a6af;
+  display: flex;
+}
+
+#profile .action2 button {
+  position: absolute;
+  top: 275px;
+  left: 310px;
+  display: block;
+  width: 100px;
+  padding: 10px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 50px;
+  box-shadow: 0 10px 20px -5px #94a6af;
+  color: rgb(7, 7, 27);
+  background-color: rgb(129, 126, 208);
+}
+
+#detail {
+  padding: 20px;
+}
+
+#detail table tr td {
+  padding: 20px;
+  position: relative;
+  left: 730px;
+}

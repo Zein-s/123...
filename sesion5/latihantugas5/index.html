@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // Menggunakan while loop untuk menampilkan pesan 5 kali
+      let i = 0;
+      let outputWhile = "";
+      while (i < 5) {
+        outputWhile += "Pesan dari while loop ke-" + (i + 1) + "<br>";
+        i++;
+      }
+      document.getElementById("outputWhile").innerHTML = outputWhile;
+
+      // Menggunakan for loop untuk menampilkan pesan 5 kali
+      let outputFor = "";
+      for (let j = 0; j < 5; j++) {
+        outputFor += "Pesan dari for loop ke-" + (j + 1) + "<br>";
+      }
+      document.getElementById("outputFor").innerHTML = outputFor;
+    </script>
+  </body>
+</html>
